@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>CodeMash iPhone App Rewrite</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="author" content="Jim Frisby" />
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+
+		<link rel="shortcut icon" href="/assets/images/favicon.png" />
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+
+		<style type="text/css">
+			@media (min-width: 768px) {
+				.sidebar-nav-fixed {
+					position: fixed;
+				}
+				.sidebar-neighbor {
+					border-left: solid 1px #eee;
+					padding-left: 1em;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid container">
+			<div class="row-fluid row">
+				<div class="span2">
+					<div class="sidebar-nav-fixed">
+						<h1>Jim Frisby<br />
+						<small>I write tests that pass.</small></h1>
+						<div class="progress progress-success">
+							<div class="bar" style="width: 0%;" id="testBar"></div>
+						</div>
+						<ul class="nav nav-list">
+							<li><a href="/">http://www.jimfrisby.com</a></li>
+							<li><a href="http://twitter.com/frisby">@frisby</a></li>
+							<li><a href="mailto:hi@jimfrisby.com?subject=hi">say hi</a></li>
+							<li><a href="/atom.xml">subscribe</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="span10 sidebar-neighbor">
+					<div class="page-header">
+	<div class="date"><h1><small>December  1, 2010</small></h1></div>
+	<hr />
+	<h2>CodeMash iPhone App Rewrite</h2>
+</div>
+<div class="content">
+	<p>Late last year, my employer asked me to finish an iPhone app that had been started by another employee.
+He was pulled away on a paying gig, and didn&#8217;t have time.</p>
+
+<p><a href="http://itunes.apple.com/us/app/codemash-2010-scheduler/id348618657?mt=8" title="CodeMash 2010 Scheduler">I finished it</a>,
+but I&#8217;m not thrilled with how it turned out.
+It&#8217;s a pretty basic scheduling app for <a href="http://www.codemash.org" title="CodeMash">CodeMash</a>, a technical conference in northern Ohio.
+There was <a href="http://itunes.apple.com/us/app/mobimash/id348641896?mt=8" title="MobiMash">another app</a> that did more or less the same thing,
+and while it had a bunch of features ours didn&#8217;t, ours wasn&#8217;t prone to random crashes.
+(We had plenty of bugs, but none were show-stoppers, in my opinion.)</p>
+
+<p>I&#8217;ve decided to revisit the codebase to see if I can spruce it up a little for next year&#8217;s CodeMash, which is a little over a month away.
+Looking over the code, it&#8217;s amazing how obviously rushed it was.
+I think both of us were still pretty new to mobile development (and Objective-C),
+and with the app store&#8217;s notorious delays in approving apps, we were desperate to reach something approximating &#8220;done.&#8221;</p>
+
+<p>Of course, that means I&#8217;m short on time this year, too.
+Hopefully, things will go better this time.</p>
+
+<p>I&#8217;ll post updates with any interesting milestones I reach.</p>
+
+	<hr />
+	<ul class="nav nav-list">
+		<li><a href="/">&larr; Home</a></li>
+	</ul>
+</div>
+
+
+				</div>
+			</div>
+		</div>
+		<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#testBar').animate({
+					width: '100%'
+				}, 'slow');
+			});
+		</script>
+	</body>
+</html>
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Mulligan</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="author" content="Jim Frisby" />
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+
+		<link rel="shortcut icon" href="/assets/images/favicon.png" />
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+
+		<style type="text/css">
+			@media (min-width: 768px) {
+				.sidebar-nav-fixed {
+					position: fixed;
+				}
+				.sidebar-neighbor {
+					border-left: solid 1px #eee;
+					padding-left: 1em;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid container">
+			<div class="row-fluid row">
+				<div class="span2">
+					<div class="sidebar-nav-fixed">
+						<h1>Jim Frisby<br />
+						<small>I write tests that pass.</small></h1>
+						<div class="progress progress-success">
+							<div class="bar" style="width: 0%;" id="testBar"></div>
+						</div>
+						<ul class="nav nav-list">
+							<li><a href="/">http://www.jimfrisby.com</a></li>
+							<li><a href="http://twitter.com/frisby">@frisby</a></li>
+							<li><a href="mailto:hi@jimfrisby.com?subject=hi">say hi</a></li>
+							<li><a href="/atom.xml">subscribe</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="span10 sidebar-neighbor">
+					<div class="page-header">
+	<div class="date"><h1><small>May 16, 2012</small></h1></div>
+	<hr />
+	<h2>Mulligan</h2>
+</div>
+<div class="content">
+	<p>It&#8217;s been far too long since I updated this blog.</p>
+
+<p>This site was previously a <a href="http://www.tumblr.com/">Tumblr</a>, and I had my personal domain point there.
+Over the last several months, I&#8217;ve taken a minute here, a minute there to redo everything.
+This is now a static site hosted on <a href="http://aws.amazon.com/s3/">Amazon S3</a>.
+The content is currently being produced with <a href="http://jekyllrb.com/">Jekyll</a>.
+I know the look of the site leaves much to be desired, and I could fiddle with it, tweak bits of it for the next month or more.
+Or I could write an actual post.</p>
+
+<p>So, here we are.</p>
+
+<p>This is my personal site.
+It will have all manner of content, so if you find one post is boring, perhaps the next one will be to your liking.
+As I am a developer, I will often write about technical things.</p>
+
+<p>I have a business site, but it&#8217;s not worth linking to at this time.
+Perhaps later.</p>
+
+	<hr />
+	<ul class="nav nav-list">
+		<li><a href="/">&larr; Home</a></li>
+	</ul>
+</div>
+
+
+				</div>
+			</div>
+		</div>
+		<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#testBar').animate({
+					width: '100%'
+				}, 'slow');
+			});
+		</script>
+	</body>
+</html>
+

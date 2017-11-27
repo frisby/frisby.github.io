@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Apple No Longer Taking Responsibility for Others&#8217; Crap Code</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="author" content="Jim Frisby" />
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+
+		<link rel="shortcut icon" href="/assets/images/favicon.png" />
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+
+		<style type="text/css">
+			@media (min-width: 768px) {
+				.sidebar-nav-fixed {
+					position: fixed;
+				}
+				.sidebar-neighbor {
+					border-left: solid 1px #eee;
+					padding-left: 1em;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid container">
+			<div class="row-fluid row">
+				<div class="span2">
+					<div class="sidebar-nav-fixed">
+						<h1>Jim Frisby<br />
+						<small>I write tests that pass.</small></h1>
+						<div class="progress progress-success">
+							<div class="bar" style="width: 0%;" id="testBar"></div>
+						</div>
+						<ul class="nav nav-list">
+							<li><a href="/">http://www.jimfrisby.com</a></li>
+							<li><a href="http://twitter.com/frisby">@frisby</a></li>
+							<li><a href="mailto:hi@jimfrisby.com?subject=hi">say hi</a></li>
+							<li><a href="/atom.xml">subscribe</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="span10 sidebar-neighbor">
+					<div class="page-header">
+	<div class="date"><h1><small>November 12, 2010</small></h1></div>
+	<hr />
+	<h2>Apple No Longer Taking Responsibility for Others&#8217; Crap Code</h2>
+</div>
+<div class="content">
+	<p>I can&#8217;t help but notice a theme in a couple of Apple&#8217;s recent communiqu&eacute;s.</p>
+
+<p>A few weeks ago, <a href="http://daringfireball.net/" title="Daring Fireball">John Gruber</a> talked to an Apple spokesman about
+<a href="http://daringfireball.net/2010/10/apple_no_longer_bundling_flash_with_mac_os_x" title="Apple Is No Longer Bundling Flash Player With Mac OS X">their decision to stop bundling Flash</a> with Macs. He was told:</p>
+
+<blockquote><p>&#8220;We&#8217;re happy to continue to support Flash on the Mac, and the best way for users to always have the most up to date and secure version is to download
+it directly from Adobe.&#8221;</p></blockquote>
+
+<p>Today, <a href="http://www.apple.com/pr/library/2010/11/12openjdk.html" title="Oracle and Apple Announce OpenJDK Project for Mac OS X">Apple and Oracle announced</a> a plan to
+deal with <a href="http://developer.apple.com/library/mac/#releasenotes/Java/JavaSnowLeopardUpdate3LeopardUpdate8RN/NewandNoteworthy/NewandNoteworthy.html%23//apple_ref/doc/uid/TP40010380-CH4-DontLinkElementID_2" title="Java for Mac OS X 10.6 Update 3 and 10.5 Update 8 Release Notes">Apple&#8217;s decision to deprecate its port of Java</a>. It reads, in part:</p>
+
+<blockquote><p>&#8220;We&#8217;re delighted to be working with Oracle to insure that there continues to be a great version of Java on the Mac,&#8221; said Bertrand Serlet,
+Apple&#8217;s senior vice president of Software Engineering. &#8220;The best way for our users to always have the most up to date and secure version of Java will
+be to get it directly from Oracle.&#8221;</p></blockquote>
+
+<p>Bundling third-party software with a new computer arguably makes a computer more valuable right out of the box. But it can also be a pain for Apple
+(and, presumably, its PC counterparts), because when something goes wrong (bugs, security problems, whatever), people look go to whoever gave them that
+software for a fix.</p>
+
+<p>So previously, if there was a problem with Flash (and there have been plenty), people expected Apple to fix it, even though it wasn&#8217;t their software.
+Now, those problems are officially Adobe&#8217;s (and Oracle&#8217;s) problem.</p>
+
+<p>I can&#8217;t help but be reminded of the (former?) motto of Microsoft&#8217;s Excel team:
+<a href="http://www.joelonsoftware.com/articles/fog0000000007.html" title="In Defense of Not-Invented-Here Syndrome">&#8220;Find the dependencies — and eliminate them.&#8221;</a></p>
+
+	<hr />
+	<ul class="nav nav-list">
+		<li><a href="/">&larr; Home</a></li>
+	</ul>
+</div>
+
+
+				</div>
+			</div>
+		</div>
+		<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#testBar').animate({
+					width: '100%'
+				}, 'slow');
+			});
+		</script>
+	</body>
+</html>
+

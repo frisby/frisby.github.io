@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Mail • Send Flagged Mail to Things</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="author" content="Jim Frisby" />
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+
+		<link rel="shortcut icon" href="/assets/images/favicon.png" />
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+
+		<style type="text/css">
+			@media (min-width: 768px) {
+				.sidebar-nav-fixed {
+					position: fixed;
+				}
+				.sidebar-neighbor {
+					border-left: solid 1px #eee;
+					padding-left: 1em;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid container">
+			<div class="row-fluid row">
+				<div class="span2">
+					<div class="sidebar-nav-fixed">
+						<h1>Jim Frisby<br />
+						<small>I write tests that pass.</small></h1>
+						<div class="progress progress-success">
+							<div class="bar" style="width: 0%;" id="testBar"></div>
+						</div>
+						<ul class="nav nav-list">
+							<li><a href="/">http://www.jimfrisby.com</a></li>
+							<li><a href="http://twitter.com/frisby">@frisby</a></li>
+							<li><a href="mailto:hi@jimfrisby.com?subject=hi">say hi</a></li>
+							<li><a href="/atom.xml">subscribe</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="span10 sidebar-neighbor">
+					<div class="page-header">
+	<div class="date"><h1><small>July  9, 2010</small></h1></div>
+	<hr />
+	<h2>Mail • Send Flagged Mail to Things</h2>
+</div>
+<div class="content">
+	<p>Because I&#8217;m a fan of <a href="http://inboxzero.com/articles/">Inbox Zero</a>, and I hate checking two places for my list of things to do, I cobbled together some
+AppleScript that will turn the flagged mail in my inbox into To Do items in <a href="http://culturedcode.com/things/">Things</a>. Here it is, if you&#8217;re interested.</p>
+
+<p>I can&#8217;t take much credit. It&#8217;s really just a hack based on John Gruber&#8217;s
+<a href="http://daringfireball.net/2008/11/flagging_messages_from_iphone_mail">script for flagging iPhone mail</a>. It cycles through the IMAP accounts in Mail, and for
+each flagged message it finds in the Inbox, it creates a new To Do in Things&#8217; Inbox with the name set to the subject line of the message. Additionally,
+it adds the message as an attachment, then archives it.</p>
+
+<pre><code>tell application "Mail"
+    repeat with _acct in imap accounts
+        if (_acct is enabled) then
+            set _acct_name to name of _acct
+            set _inbox to _acct's mailbox "INBOX"
+
+            try
+                set _archive_box to _acct's mailbox "Archive"
+            on error
+                -- Archive doesn't exist; maybe this is Gmail?
+                try
+                    set _archive_box to _acct's mailbox "[Gmail]/All Mail"
+                on error
+                    display alert "No “Archive” mailbox found for account “" ¬
+                        &amp; _acct_name &amp; "”."
+                    return -- Stop the script
+                end try
+            end try
+
+            set _msg_list to (every message of _inbox whose flagged status is ¬
+                true and read status is true)
+
+            if (_msg_list's length &gt; 0) then
+                repeat with _msg in _msg_list
+                    set _msg_subj to subject of _msg
+                    set _msg_id to message id of _msg
+                    set _msg_url to "[url=message:%3C" &amp; _msg_id &amp; "%3E]" ¬
+                        &amp; _msg_subj &amp; "[/url]"
+
+                    try
+                        tell application "Things"
+                            make new to do with properties ¬
+                                {name:_msg_subj, notes:_msg_url}
+                        end tell
+
+                        move _msg to _archive_box
+                    on error
+                        display alert "Could not create To Do for message “" ¬
+                            &amp; _msg_subj &amp; "”."
+                        return -- Stop the script
+                    end try
+                end repeat
+            end if
+        end if
+    end repeat
+end tell
+</code></pre>
+
+<p>Of course, the best way to use this is to create a Snow Leopard service. Speaking of which: I guess the URL format for messages changed in Snow Leopard, so this
+script won&#8217;t work as-is in Leopard.</p>
+
+	<hr />
+	<ul class="nav nav-list">
+		<li><a href="/">&larr; Home</a></li>
+	</ul>
+</div>
+
+
+				</div>
+			</div>
+		</div>
+		<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#testBar').animate({
+					width: '100%'
+				}, 'slow');
+			});
+		</script>
+	</body>
+</html>
+

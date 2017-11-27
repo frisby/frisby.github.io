@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>I write tests, and the code that makes them pass.</title>
+ <link href="http://www.jimfrisby.com/atom.xml" rel="self"/>
+ <link href="http://www.jimfrisby.com"/>
+ <updated>2012-08-12T17:55:13-04:00</updated>
+ <id>http://www.jimfrisby.com</id>
+ <author>
+   <name>Jim Frisby</name>
+   <email>hi@jimfrisby.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Square to Lose Money Faster Than Ever</title>
+   <link href="http://www.jimfrisby.com/2012/08/12/square/"/>
+   <updated>2012-08-12T00:00:00-04:00</updated>
+   <id>hhttp://www.jimfrisby.com/2012/08/12/square</id>
+   <content type="html">&lt;p&gt;A few days ago, &lt;a href=&quot;https://squareup.com/&quot;&gt;Square&lt;/a&gt; announced &lt;a href=&quot;https://squareup.com/news/releases/2012/square-starbucks&quot; title=&quot;Starbucks Accelerates Mobile Payments Leadership by Choosing Square for Payments&quot;&gt;a partnership&lt;/a&gt; with &lt;a href=&quot;http://www.starbucks.com/&quot;&gt;Starbucks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As a longtime fan of Square, my first thought was &amp;#8220;hooray for them!&amp;#8221; But then I remembered that &lt;a href=&quot;http://www.banktech.com/payments-cards/240005324&quot;&gt;they lose money on every transaction&lt;/a&gt;. This deal is only going to accelerate the process.&lt;/p&gt;
+
+&lt;p&gt;I want Square to achieve its goals, but I keep getting that &lt;a href=&quot;http://en.wikipedia.org/wiki/Gnomes_%28South_Park%29&quot;&gt;Underpants Gnomes&lt;/a&gt; vibe: relentlessly pursue your goals, &lt;em&gt;then&lt;/em&gt; figure out that whole &amp;#8220;income&amp;#8221; thing.
+Of course, Silicon Valley startups have known for years that Step 2 is &amp;#8220;get acquired.&amp;#8221;
+ &lt;a href=&quot;http://newsroom.fb.com/News/Facebook-to-Acquire-Instagram-141.aspx&quot;&gt;It worked for Instagram&lt;/a&gt; to the tune of a billion dollars.&lt;/p&gt;
+
+&lt;p&gt;I just hope Square figures out its plan in time.
+Also, that it isn&amp;#8217;t a terrible plan.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>An Undesirable Form of Tethering</title>
+   <link href="http://www.jimfrisby.com/2012/05/22/tethered/"/>
+   <updated>2012-05-22T00:00:00-04:00</updated>
+   <id>hhttp://www.jimfrisby.com/2012/05/22/tethered</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;m trying to get into the habit of posting regularly.
+It&amp;#8217;s a good habit to get into, if I&amp;#8217;m to avoid having this site fall dormant again.&lt;/p&gt;
+
+&lt;p&gt;There is a problem, though.
+With my current setup, I have to be at my laptop to write and publish a post.
+The result of this friction is that by the time I can sit down to write something, I often forget what it was I wanted to say.&lt;/p&gt;
+
+&lt;p&gt;This problem seems rather quaint, seeing as I always have an iPhone handy, and often have an iPad nearby.
+I have to believe there are already apps out there that solve this particular problem in a way that works with my setup (&lt;a href=&quot;http://panic.com/dietcoda/&quot;&gt;Diet Coda&lt;/a&gt; seems to be a good candidate).
+But secretly, I hope there isn&amp;#8217;t, because that would give me something to attempt for myself.&lt;/p&gt;
+
+&lt;p&gt;All the various pieces are cobbled together on my MacBook Pro.
+I just need to work out some way to get them onto iOS.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mulligan</title>
+   <link href="http://www.jimfrisby.com/2012/05/16/mulligan/"/>
+   <updated>2012-05-16T00:00:00-04:00</updated>
+   <id>hhttp://www.jimfrisby.com/2012/05/16/mulligan</id>
+   <content type="html">&lt;p&gt;It&amp;#8217;s been far too long since I updated this blog.&lt;/p&gt;
+
+&lt;p&gt;This site was previously a &lt;a href=&quot;http://www.tumblr.com/&quot;&gt;Tumblr&lt;/a&gt;, and I had my personal domain point there.
+Over the last several months, I&amp;#8217;ve taken a minute here, a minute there to redo everything.
+This is now a static site hosted on &lt;a href=&quot;http://aws.amazon.com/s3/&quot;&gt;Amazon S3&lt;/a&gt;.
+The content is currently being produced with &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.
+I know the look of the site leaves much to be desired, and I could fiddle with it, tweak bits of it for the next month or more.
+Or I could write an actual post.&lt;/p&gt;
+
+&lt;p&gt;So, here we are.&lt;/p&gt;
+
+&lt;p&gt;This is my personal site.
+It will have all manner of content, so if you find one post is boring, perhaps the next one will be to your liking.
+As I am a developer, I will often write about technical things.&lt;/p&gt;
+
+&lt;p&gt;I have a business site, but it&amp;#8217;s not worth linking to at this time.
+Perhaps later.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Real Backups</title>
+   <link href="http://www.jimfrisby.com/2011/01/07/real-backups/"/>
+   <updated>2011-01-07T00:00:00-05:00</updated>
+   <id>hhttp://www.jimfrisby.com/2011/01/07/real-backups</id>
+   <content type="html">&lt;p&gt;Like most people, I tend to do a poor job of backing up my data.
+I&amp;#8217;ve been bitten by the consequences of my carelessness before, and am finally doing something about it, albeit a bit too late.&lt;/p&gt;
+
+&lt;p&gt;In August of 2003, my PC&amp;#8217;s hard drive crashed, taking everything with it.
+I had a single 3.5&amp;#8221; floppy with my most important files backed up on it, which had last been updated the preceding December.&lt;/p&gt;
+
+&lt;p&gt;You would think that I learned a lesson, that as a professional in the field, I would know better, but habit is a powerful drug.
+The lack of a proper backup solution nagged at me, but that was all.&lt;/p&gt;
+
+&lt;p&gt;At least with the appearance of Time Machine in Mac OS X Leopard, I was able to do a little something.
+If nothing else, I made sure I always had a spare external drive for this purpose.&lt;/p&gt;
+
+&lt;p&gt;My instinct is to point you to &lt;a href=&quot;http://daringfireball.net/&quot; title=&quot;Daring Fireball&quot;&gt;John Gruber&amp;#8217;s&lt;/a&gt;
+&lt;a href=&quot;http://daringfireball.net/2010/03/ode_to_diskwarrior_superduper_dropbox&quot; title=&quot;An Ode to DiskWarrior, SuperDuper, and Dropbox&quot;&gt;&lt;em&gt;An Ode to DiskWarrior, SuperDuper, and Dropbox&lt;/em&gt;&lt;/a&gt;, or
+&lt;a href=&quot;http://www.43folders.com/&quot; title=&quot;43 Folders&quot;&gt;Merlin Mann&amp;#8217;s&lt;/a&gt;
+&lt;a href=&quot;http://www.43folders.com/2010/03/15/yes-another-backup-lecture&quot; title=&quot;Yes. Another Backup Lecture.&quot;&gt;&lt;em&gt;Yes. Another Backup Lecture.&lt;/em&gt;&lt;/a&gt; and leave it at that.
+And why not?
+They cover the topic better and more thoroughly than I could, and those were the articles that stuck in my mind throughout 2010.&lt;/p&gt;
+
+&lt;p&gt;I get paid biweekly, and last month was one of those times when I got three paychecks instead of two
+(in fact, last year was one of those rare years when my coworkers and I got twenty-seven paychecks instead of twenty-six).
+I decided to quit stalling and purchase the hardware needed to do &amp;#8220;real backups,&amp;#8221; as defined by Merlin Mann.&lt;/p&gt;
+
+&lt;p&gt;I have a 2005 Mac mini (PowerPC) that I use as a home media server, a 2007 iMac,
+and that rare breed of aluminum MacBook that only existed for eight months, before Apple decided that aluminum meant &amp;#8220;Pro.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;The Mac mini has a 1TB external hard drive attached to it with all my digital media, so that means four hard drives that need to be backed up.
+Because anything worth doing is worth overdoing, I purchased a docking station, ten 1TB internal hard drives, and a set of cases to store them in.&lt;/p&gt;
+
+&lt;p&gt;Last night, Thursday, everything was finally delivered, so I got to work.
+The initial backup of my laptop took four hours.
+With only one docking station, the first round of backups is going to take a very long time.
+Tonight, I opted to backup my external drive of media files.
+I was out of ports, so I had to root around for an old USB hub.
+Finally, at about 8:00 p.m., everything was hooked up and I started copying my digital media.&lt;/p&gt;
+
+&lt;p&gt;Naturally, that drive failed about sixty seconds later.&lt;/p&gt;
+
+&lt;p&gt;Allegedly, my Time Capsule has a backup only a few hours old.
+I&amp;#8217;m attempting to make a copy of that backup as I type, but the process will take until morning.&lt;/p&gt;
+
+&lt;p&gt;May I suggest you look into doing some real backups of your own?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CodeMash Scheduler 1.1 Available</title>
+   <link href="http://www.jimfrisby.com/2010/12/19/codemash-scheduler-ready/"/>
+   <updated>2010-12-19T00:00:00-05:00</updated>
+   <id>hhttp://www.jimfrisby.com/2010/12/19/codemash-scheduler-ready</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://itunes.apple.com/us/app/codemash-scheduler/id348618657?mt=8&amp;amp;uo=4&quot; title=&quot;CodeMash Scheduler&quot;&gt;Download it&lt;/a&gt; from the App Store,
+if you plan to attend the conference.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CodeMash + Core Data</title>
+   <link href="http://www.jimfrisby.com/2010/12/14/codemash-core-data/"/>
+   <updated>2010-12-14T00:00:00-05:00</updated>
+   <id>hhttp://www.jimfrisby.com/2010/12/14/codemash-core-data</id>
+   <content type="html">&lt;p&gt;It took a lot longer than I anticipated, but I replaced the poorly-designed SQLite database of the CodeMash Scheduler with a Core Data store.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m new to Core Data, so there was a learning curve involved
+(I highly recommend &lt;a href=&quot;http://pragprog.com/titles/mzcd/core-data&quot; title=&quot;The Pragmatic Bookshelf&quot;&gt;&lt;em&gt;Core Data: Apple&amp;#8217;s API for Persisting Data on Mac OS X&lt;/em&gt;&lt;/a&gt;).
+In addition, I insisted to myself that the app remain fully functional after every commit.
+That led to a long period where the app&amp;#8217;s data was split between two data stores, which slowed me down.&lt;/p&gt;
+
+&lt;p&gt;Finally, I insisted on writing a migration step into the app.
+Because I never uninstalled the app from my iPhone after January&amp;#8217;s conference, I discovered that the 1.0 version still (mostly) works.
+You can &amp;#8220;favorite&amp;#8221; some talks, and it records that fact in a SQLite table.
+It&amp;#8217;s possible (though highly unlikely) that someone will mark some talks in this way, then upgrade to the next version of the app.
+I wanted to make sure they didn&amp;#8217;t have to mark those talks again.
+It&amp;#8217;s the little things that make an app useful.&lt;/p&gt;
+
+&lt;p&gt;That&amp;#8217;s the big news.
+There are also a few minor changes that are worth noting:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;support for fast task switching, like any decent iOS 4 app;&lt;/li&gt;
+&lt;li&gt;dynamically generate some lists that were previously hardcoded;&lt;/li&gt;
+&lt;li&gt;replacement of the annoying full screen &amp;#8220;loading&amp;#8221; message with the subtler status bar network activity indicator; and&lt;/li&gt;
+&lt;li&gt;a pre-populated Core Data store.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;That last one deserves a brief explanation.&lt;/p&gt;
+
+&lt;p&gt;On startup in 1.0, we downloaded the contents of the CodeMash REST feeds and replaced the database contents (if any) with the results.
+This meant that, unless you had network connectivity, the app was unusable.
+CodeMash&amp;#8217;s venue this January was in an area with terrible cell phone reception.
+Their wifi was also overtaxed by the presence of so many technical geeks, so the app was either useless,
+or people were repeatedly confronted with error messages about being unable to download data.&lt;/p&gt;
+
+&lt;p&gt;Because I don&amp;#8217;t trust AT&amp;amp;T nor the Kalahari Waterpark Resort to beef up their offerings in time,
+CodeMash Scheduler will now come with a pre-populated Core Data store for improved offline use.&lt;/p&gt;
+
+&lt;p&gt;On a personal note, I am thoroughly enjoying Core Data.
+I know I&amp;#8217;ve only just scratched the surface, but I can already see a lot of ways I can use it.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CodeMash iPhone App Rewrite</title>
+   <link href="http://www.jimfrisby.com/2010/12/01/codemash-app/"/>
+   <updated>2010-12-01T00:00:00-05:00</updated>
+   <id>hhttp://www.jimfrisby.com/2010/12/01/codemash-app</id>
+   <content type="html">&lt;p&gt;Late last year, my employer asked me to finish an iPhone app that had been started by another employee.
+He was pulled away on a paying gig, and didn&amp;#8217;t have time.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://itunes.apple.com/us/app/codemash-2010-scheduler/id348618657?mt=8&quot; title=&quot;CodeMash 2010 Scheduler&quot;&gt;I finished it&lt;/a&gt;,
+but I&amp;#8217;m not thrilled with how it turned out.
+It&amp;#8217;s a pretty basic scheduling app for &lt;a href=&quot;http://www.codemash.org&quot; title=&quot;CodeMash&quot;&gt;CodeMash&lt;/a&gt;, a technical conference in northern Ohio.
+There was &lt;a href=&quot;http://itunes.apple.com/us/app/mobimash/id348641896?mt=8&quot; title=&quot;MobiMash&quot;&gt;another app&lt;/a&gt; that did more or less the same thing,
+and while it had a bunch of features ours didn&amp;#8217;t, ours wasn&amp;#8217;t prone to random crashes.
+(We had plenty of bugs, but none were show-stoppers, in my opinion.)&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ve decided to revisit the codebase to see if I can spruce it up a little for next year&amp;#8217;s CodeMash, which is a little over a month away.
+Looking over the code, it&amp;#8217;s amazing how obviously rushed it was.
+I think both of us were still pretty new to mobile development (and Objective-C),
+and with the app store&amp;#8217;s notorious delays in approving apps, we were desperate to reach something approximating &amp;#8220;done.&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;Of course, that means I&amp;#8217;m short on time this year, too.
+Hopefully, things will go better this time.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;ll post updates with any interesting milestones I reach.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Apple No Longer Taking Responsibility for Others&#8217; Crap Code</title>
+   <link href="http://www.jimfrisby.com/2010/11/12/apple-java/"/>
+   <updated>2010-11-12T00:00:00-05:00</updated>
+   <id>hhttp://www.jimfrisby.com/2010/11/12/apple-java</id>
+   <content type="html">&lt;p&gt;I can&amp;#8217;t help but notice a theme in a couple of Apple&amp;#8217;s recent communiqu&amp;eacute;s.&lt;/p&gt;
+
+&lt;p&gt;A few weeks ago, &lt;a href=&quot;http://daringfireball.net/&quot; title=&quot;Daring Fireball&quot;&gt;John Gruber&lt;/a&gt; talked to an Apple spokesman about
+&lt;a href=&quot;http://daringfireball.net/2010/10/apple_no_longer_bundling_flash_with_mac_os_x&quot; title=&quot;Apple Is No Longer Bundling Flash Player With Mac OS X&quot;&gt;their decision to stop bundling Flash&lt;/a&gt; with Macs. He was told:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&amp;#8220;We&amp;#8217;re happy to continue to support Flash on the Mac, and the best way for users to always have the most up to date and secure version is to download
+it directly from Adobe.&amp;#8221;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Today, &lt;a href=&quot;http://www.apple.com/pr/library/2010/11/12openjdk.html&quot; title=&quot;Oracle and Apple Announce OpenJDK Project for Mac OS X&quot;&gt;Apple and Oracle announced&lt;/a&gt; a plan to
+deal with &lt;a href=&quot;http://developer.apple.com/library/mac/#releasenotes/Java/JavaSnowLeopardUpdate3LeopardUpdate8RN/NewandNoteworthy/NewandNoteworthy.html%23//apple_ref/doc/uid/TP40010380-CH4-DontLinkElementID_2&quot; title=&quot;Java for Mac OS X 10.6 Update 3 and 10.5 Update 8 Release Notes&quot;&gt;Apple&amp;#8217;s decision to deprecate its port of Java&lt;/a&gt;. It reads, in part:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&amp;#8220;We&amp;#8217;re delighted to be working with Oracle to insure that there continues to be a great version of Java on the Mac,&amp;#8221; said Bertrand Serlet,
+Apple&amp;#8217;s senior vice president of Software Engineering. &amp;#8220;The best way for our users to always have the most up to date and secure version of Java will
+be to get it directly from Oracle.&amp;#8221;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Bundling third-party software with a new computer arguably makes a computer more valuable right out of the box. But it can also be a pain for Apple
+(and, presumably, its PC counterparts), because when something goes wrong (bugs, security problems, whatever), people look go to whoever gave them that
+software for a fix.&lt;/p&gt;
+
+&lt;p&gt;So previously, if there was a problem with Flash (and there have been plenty), people expected Apple to fix it, even though it wasn&amp;#8217;t their software.
+Now, those problems are officially Adobe&amp;#8217;s (and Oracle&amp;#8217;s) problem.&lt;/p&gt;
+
+&lt;p&gt;I can&amp;#8217;t help but be reminded of the (former?) motto of Microsoft&amp;#8217;s Excel team:
+&lt;a href=&quot;http://www.joelonsoftware.com/articles/fog0000000007.html&quot; title=&quot;In Defense of Not-Invented-Here Syndrome&quot;&gt;&amp;#8220;Find the dependencies — and eliminate them.&amp;#8221;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mail • Send Flagged Mail to Things</title>
+   <link href="http://www.jimfrisby.com/2010/07/09/applescript-things/"/>
+   <updated>2010-07-09T00:00:00-04:00</updated>
+   <id>hhttp://www.jimfrisby.com/2010/07/09/applescript-things</id>
+   <content type="html">&lt;p&gt;Because I&amp;#8217;m a fan of &lt;a href=&quot;http://inboxzero.com/articles/&quot;&gt;Inbox Zero&lt;/a&gt;, and I hate checking two places for my list of things to do, I cobbled together some
+AppleScript that will turn the flagged mail in my inbox into To Do items in &lt;a href=&quot;http://culturedcode.com/things/&quot;&gt;Things&lt;/a&gt;. Here it is, if you&amp;#8217;re interested.&lt;/p&gt;
+
+&lt;p&gt;I can&amp;#8217;t take much credit. It&amp;#8217;s really just a hack based on John Gruber&amp;#8217;s
+&lt;a href=&quot;http://daringfireball.net/2008/11/flagging_messages_from_iphone_mail&quot;&gt;script for flagging iPhone mail&lt;/a&gt;. It cycles through the IMAP accounts in Mail, and for
+each flagged message it finds in the Inbox, it creates a new To Do in Things&amp;#8217; Inbox with the name set to the subject line of the message. Additionally,
+it adds the message as an attachment, then archives it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tell application &quot;Mail&quot;
+    repeat with _acct in imap accounts
+        if (_acct is enabled) then
+            set _acct_name to name of _acct
+            set _inbox to _acct's mailbox &quot;INBOX&quot;
+
+            try
+                set _archive_box to _acct's mailbox &quot;Archive&quot;
+            on error
+                -- Archive doesn't exist; maybe this is Gmail?
+                try
+                    set _archive_box to _acct's mailbox &quot;[Gmail]/All Mail&quot;
+                on error
+                    display alert &quot;No “Archive” mailbox found for account “&quot; ¬
+                        &amp;amp; _acct_name &amp;amp; &quot;”.&quot;
+                    return -- Stop the script
+                end try
+            end try
+
+            set _msg_list to (every message of _inbox whose flagged status is ¬
+                true and read status is true)
+
+            if (_msg_list's length &amp;gt; 0) then
+                repeat with _msg in _msg_list
+                    set _msg_subj to subject of _msg
+                    set _msg_id to message id of _msg
+                    set _msg_url to &quot;[url=message:%3C&quot; &amp;amp; _msg_id &amp;amp; &quot;%3E]&quot; ¬
+                        &amp;amp; _msg_subj &amp;amp; &quot;[/url]&quot;
+
+                    try
+                        tell application &quot;Things&quot;
+                            make new to do with properties ¬
+                                {name:_msg_subj, notes:_msg_url}
+                        end tell
+
+                        move _msg to _archive_box
+                    on error
+                        display alert &quot;Could not create To Do for message “&quot; ¬
+                            &amp;amp; _msg_subj &amp;amp; &quot;”.&quot;
+                        return -- Stop the script
+                    end try
+                end repeat
+            end if
+        end if
+    end repeat
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Of course, the best way to use this is to create a Snow Leopard service. Speaking of which: I guess the URL format for messages changed in Snow Leopard, so this
+script won&amp;#8217;t work as-is in Leopard.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Crept out the back door</title>
+   <link href="http://www.jimfrisby.com/2010/07/03/evangelism-failure/"/>
+   <updated>2010-07-03T00:00:00-04:00</updated>
+   <id>hhttp://www.jimfrisby.com/2010/07/03/evangelism-failure</id>
+   <content type="html">&lt;blockquote&gt;&lt;p&gt;White evangelical Protestants have been stable as a proportion of the population for decades. [&amp;#8230;]&lt;/p&gt;
+
+&lt;p&gt;And that&amp;#8217;s interesting, because the biggest defining characteristic of this subculture [&amp;#8230;] is that it is evangelistic.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;#8212;&lt;a href=&quot;http://www.patheos.com/blogs/slacktivist/2010/07/03/crept-out-the-back-door/&quot;&gt;Crept out the back door&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
