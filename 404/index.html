@@ -22,6 +22,13 @@
 					padding-left: 1em;
 				}
 			}
+			#testBar {
+				animation: runTests 0.5s ease-in-out 0.25s forwards;
+			}
+			@keyframes runTests {
+				from { width: 0%; }
+				to { width: 100%; }
+			}
 		</style>
 	</head>
 	<body>
@@ -60,15 +67,6 @@ I&#8217;m sorry about that.</p>
 				</div>
 			</div>
 		</div>
-		<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('#testBar').animate({
-					width: '100%'
-				}, 'slow');
-			});
-		</script>
 	</body>
 </html>
 
